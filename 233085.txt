@@ -1,0 +1,34 @@
+ДЕЛ 2
+13.git fetch origin за да се креираат tracker гранки за 3-те гранки кои ги креиравме преку Github проектот
+14.git checkout 1-remove-a-task-by-name
+Опис: Префрлен сум на гранката за имплементација на "Remove a task by name".
+15.
+го додадов овој код public void removeTask(String name) {
+    tasks.removeIf(task -> task.getName().equals(name));
+}
+16.git add SI2025Lab1Main.java
+git commit -m "Implement remove task by name"
+Направен commit со имплементацијата на "Remove a task by name".
+17.
+git push origin 1-remove-a-task-by-name
+Опис: Синхронизирана локалната гранка 1-remove-a-task-by-name со оддалечениот репозиториум.
+18.Креиран pull request на GitHub за гранката 1-remove-a-task-by-name кон master.
+Опис: Pull request-от е со наслов "Implement remove task by name".
+19. на ист начин го направив истот за другите 2 гранки
+20.Споени два pull requests преку GitHub:
+- 1-remove-a-task-by-name кон master
+- 3-list-tasks-sorted-by-name кон master
+Дали имаше конфликти? Не, немаше конфликти.
+Стратегија за спојување: GitHub користеше merge commit стратегија.
+21.Во проектот SI2025, issues "Remove a task by name" и "List tasks sorted by name" се преместени во Done по спојувањето на гранките и тоа го видов во projects.
+22.git checkout master
+git pull origin master
+git merge 5-filter-tasks-by-category
+Дали имаше конфликти? Не, немаше конфликти.
+Како се решени (ако имаше)? Немаше конфликти.
+Стратегија за спојување: Користена е merge commit стратегија.
+23.git push origin master
+Опис: Синхронизирана гранката master со оддалечениот репозиториум по локалното спојување.
+24.Pull request-от за 5-filter-tasks-by-category е затворен на GitHub.
+Issue-от "Filter tasks by category" е преместен во Done во проектот SI2025.
+25.

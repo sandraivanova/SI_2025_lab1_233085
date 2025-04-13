@@ -1,0 +1,18 @@
+*   c6c6264 Merge branch '4-filter-tasks-by-category'
+|\  
+| * f9ae9b3 Implement filter tasks by category
+* |   0554b09 Merge pull request #11 from sandraivanova/3-list-tasks-sorted-by-name
+|\ \  
+| * | 0de5503 Implement list tasks sorted by name
+| |/  
+* |   b1141c4 Merge pull request #10 from sandraivanova/1-remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * 4fd2888 Implement remove a task by name
+|/  
+*   85a3860 Merge branch 'master' of https://github.com/sandraivanova/SI_2024_lab1_233085
+|\  
+| * 421eef7 Add name and index.md
+| * 99099e4 Initial commit
+* c28f34a Add starter code
